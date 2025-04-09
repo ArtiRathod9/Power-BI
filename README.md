@@ -52,7 +52,7 @@ This Power BI report helps Maven Roasters:
 - Average Transaction Value
 - Total Units Sold
 
-![PowerBI](Dashbaord-PowerBi.png)
+![PowerBI](dsh.png)
 ---
 
 ## 🧮 DAX Measures Used
