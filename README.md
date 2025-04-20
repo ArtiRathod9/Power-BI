@@ -53,7 +53,7 @@ This Power BI report helps Maven Roasters:
 👉 [Click here to view the interactive Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNjdhZDZiZTMtYzNiZC00ZTAyLWJjOGEtZTIyNDUzMGRmM2NlIiwidCI6IjZlZmQwZjIwLTU3YzgtNDQ0Ny1iNTNmLTAwZDQ5OTJjYTUwYiJ9)
 
 
-![PowerBI Preview](dsh.png)
+![PowerBI Preview](Dshb.png)
 ---
 
 ## 🧮 DAX Measures Used
