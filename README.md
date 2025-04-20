@@ -55,22 +55,7 @@ This Power BI report helps Maven Roasters:
 
 ![PowerBI Preview](Dshb.png)
 ---
-
-## 🧮 DAX Measures Used
-
-DAX
-Total Revenue = SUM('Sales'[Revenue])
-Total Transactions = COUNT('Sales'[Transaction ID])
-Average Transaction Value = [Total Revenue] / [Total Transactions]
-Sales Volume = SUM('Sales'[Quantity])
-Optional Time Intelligence:
-
-MTD Revenue = TOTALMTD([Total Revenue], 'Sales'[Transaction Date])
-YTD Revenue = TOTALYTD([Total Revenue], 'Sales'[Transaction Date])
----
-
----
-## 🔧 Data Preparation Steps
+ ## 🔧 Data Preparation Steps
 - Load dataset into Power BI
 - Format date and time fields
 - Create a Calendar Table and establish relationships
@@ -93,3 +78,22 @@ Shops can Focus on expanding their coffee and tea offerings, as these categories
 - Introducing premium or seasonal coffee blends.
 - Offering tea tastings or curated tea sets.
 - Bundling coffee/tea with bakery items to increase average transaction value
+
+## 🧮 DAX Measures Used
+
+These are the key DAX measures used in the Power BI dashboard:
+
+```DAX
+-- Basic Measures
+Total Revenue = SUM('Sales'[Revenue])
+Total Transactions = COUNT('Sales'[Transaction ID])
+Average Transaction Value = [Total Revenue] / [Total Transactions]
+Sales Volume = SUM('Sales'[Quantity])
+--- 
+🕒 Optional Time Intelligence Measures
+-- Month-to-Date Revenue
+MTD Revenue = TOTALMTD([Total Revenue], 'Sales'[Transaction Date])
+-- Year-to-Date Revenue
+YTD Revenue = TOTALYTD([Total Revenue], 'Sales'[Transaction Date])
+---
+---
