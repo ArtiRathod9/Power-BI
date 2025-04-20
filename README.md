@@ -53,7 +53,8 @@ This Power BI report helps Maven Roasters:
 - Total Units Sold
 
 ## 🔗 Live Power BI Dashboard
-👉 [Click here to view the interactive Power BI Dashboard](<iframe title="coffee-Shop-Sales" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiNjdhZDZiZTMtYzNiZC00ZTAyLWJjOGEtZTIyNDUzMGRmM2NlIiwidCI6IjZlZmQwZjIwLTU3YzgtNDQ0Ny1iNTNmLTAwZDQ5OTJjYTUwYiJ9" frameborder="0" allowFullScreen="true"></iframe>)
+👉 [Click here to view the interactive Power BI Dashboard]([https://app.powerbi.com/view?r=eyJrIjoi..](https://app.powerbi.com/view?r=eyJrIjoiNjdhZDZiZTMtYzNiZC00ZTAyLWJjOGEtZTIyNDUzMGRmM2NlIiwidCI6IjZlZmQwZjIwLTU3YzgtNDQ0Ny1iNTNmLTAwZDQ5OTJjYTUwYiJ9)
+
 
 ![PowerBI Preview](dsh.png)
 ---
