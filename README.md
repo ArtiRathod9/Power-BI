@@ -95,5 +95,36 @@ Sales Volume = SUM('Sales'[Quantity])
 MTD Revenue = TOTALMTD([Total Revenue], 'Sales'[Transaction Date])
 -- Year-to-Date Revenue
 YTD Revenue = TOTALYTD([Total Revenue], 'Sales'[Transaction Date])
+
 ---
----
+## 
+```Challenges Encountered During Power BI Report Development
+1. Data Formatting Issues
+Raw data is stored in a single column with pipe (|) separators.
+Requires preprocessing to split fields before using in Power BI.
+
+2. Data Cleaning & Transformation
+Conversion of data types (dates, numbers).
+Removal of duplicates or handling of missing values.
+Need for calculated columns (e.g., Revenue = Qty × Unit Price).
+
+3. Relationships and Data Modeling
+If integrating multiple tables, defining accurate relationships is essential.
+Incorrect relationships lead to aggregation and filtering errors.
+
+4. Designing Effective Visuals
+Choosing appropriate visuals for trends, comparisons, and summaries.
+Organizing data for user-friendly navigation and slicing (e.g., by category, date).
+
+
+5. DAX Complexity
+Creating calculated measures (YTD sales, category share, rankings).
+Learning curve in mastering DAX expressions.
+
+6. Performance Optimization
+Large datasets and excessive visuals may degrade performance.
+Requires careful optimization and visual filtering.
+
+7. Access Control & Sharing
+Configuring proper access rights and Row-Level Security (RLS).
+Ensuring sensitive information is only visible to authorized users.
