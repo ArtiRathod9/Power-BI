@@ -58,7 +58,7 @@ This Power BI report helps Maven Roasters:
 
 ## 🧮 DAX Measures Used
 
-```DAX
+DAX
 Total Revenue = SUM('Sales'[Revenue])
 Total Transactions = COUNT('Sales'[Transaction ID])
 Average Transaction Value = [Total Revenue] / [Total Transactions]
@@ -68,23 +68,28 @@ Optional Time Intelligence:
 MTD Revenue = TOTALMTD([Total Revenue], 'Sales'[Transaction Date])
 YTD Revenue = TOTALYTD([Total Revenue], 'Sales'[Transaction Date])
 ---
+
+---
 ## 🔧 Data Preparation Steps
 - Load dataset into Power BI
 - Format date and time fields
 - Create a Calendar Table and establish relationships
 - Clean product and category data if needed
 - Create calculated columns and DAX measures
-
-📌 Usage Instructions
-Open the .pbix file in Power BI Desktop
-
-Use the slicers on the report to filter by date, location, or category
-
-Hover over visuals for detailed insights and tooltips
-
-Explore different pages for sales, product, and location analysis
-
-📈 Insights You Can Discover
+---
+## 📈 Insights You Can Discover
 - What products or categories drive the most revenue?
 - Which store location performs best overall?
-- What is the average spend per transaction? 
+- What is the average spend per transaction?
+
+## Recommendation:
+Shops can Focus on expanding their coffee and tea offerings, as these categories generate the most revenue:
+
+- Coffee leads with $269,952.45
+- Tea follows with $196,405.95
+
+### You could offer below to improvise sales:
+
+- Introducing premium or seasonal coffee blends.
+- Offering tea tastings or curated tea sets.
+- Bundling coffee/tea with bakery items to increase average transaction value
