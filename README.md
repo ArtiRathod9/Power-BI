@@ -79,26 +79,7 @@ Shops can Focus on expanding their coffee and tea offerings, as these categories
 - Offering tea tastings or curated tea sets.
 - Bundling coffee/tea with bakery items to increase average transaction value
 
-## 🧮 DAX Measures Used
-
-These are the key DAX measures used in the Power BI dashboard:
-
-```DAX
--- Basic Measures
-Total Revenue = SUM('Sales'[Revenue])
-Total Transactions = COUNT('Sales'[Transaction ID])
-Average Transaction Value = [Total Revenue] / [Total Transactions]
-Sales Volume = SUM('Sales'[Quantity])
---- 
-🕒 Optional Time Intelligence Measures
--- Month-to-Date Revenue
-MTD Revenue = TOTALMTD([Total Revenue], 'Sales'[Transaction Date])
--- Year-to-Date Revenue
-YTD Revenue = TOTALYTD([Total Revenue], 'Sales'[Transaction Date])
-
----
-## 
-```Challenges Encountered During Power BI Report Development
+## Challenges Encountered During Power BI Report Development
 1. Data Formatting Issues
 Raw data is stored in a single column with pipe (|) separators.
 Requires preprocessing to split fields before using in Power BI.
@@ -116,7 +97,6 @@ Incorrect relationships lead to aggregation and filtering errors.
 Choosing appropriate visuals for trends, comparisons, and summaries.
 Organizing data for user-friendly navigation and slicing (e.g., by category, date).
 
-
 5. DAX Complexity
 Creating calculated measures (YTD sales, category share, rankings).
 Learning curve in mastering DAX expressions.
@@ -128,3 +108,21 @@ Requires careful optimization and visual filtering.
 7. Access Control & Sharing
 Configuring proper access rights and Row-Level Security (RLS).
 Ensuring sensitive information is only visible to authorized users.
+
+## 🧮 DAX Measures Used
+
+These are the key DAX measures used in the Power BI dashboard:
+
+```DAX
+-- Basic Measures
+Total Revenue = SUM('Sales'[Revenue])
+Total Transactions = COUNT('Sales'[Transaction ID])
+Average Transaction Value = [Total Revenue] / [Total Transactions]
+Sales Volume = SUM('Sales'[Quantity])
+--- 
+🕒 Optional Time Intelligence Measures
+-- Month-to-Date Revenue
+MTD Revenue = TOTALMTD([Total Revenue], 'Sales'[Transaction Date])
+-- Year-to-Date Revenue
+YTD Revenue = TOTALYTD([Total Revenue], 'Sales'[Transaction Date])
+
