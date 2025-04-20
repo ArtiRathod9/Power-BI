@@ -82,7 +82,7 @@ YTD Revenue = TOTALYTD([Total Revenue], 'Sales'[Transaction Date])
 - Which store location performs best overall?
 - What is the average spend per transaction?
 
-## Recommendation:
+## ✨ Recommendations
 Shops can Focus on expanding their coffee and tea offerings, as these categories generate the most revenue:
 
 - Coffee leads with $269,952.45
