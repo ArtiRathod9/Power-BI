@@ -62,11 +62,6 @@ This Power BI report helps Maven Roasters:
 - Clean product and category data if needed
 - Create calculated columns and DAX measures
 ---
-## 📈 Insights You Can Discover
-- What products or categories drive the most revenue?
-- Which store location performs best overall?
-- What is the average spend per transaction?
-
 ## ✨ Recommendations
 Shops can Focus on expanding their coffee and tea offerings, as these categories generate the most revenue:
 
@@ -76,7 +71,7 @@ Shops can Focus on expanding their coffee and tea offerings, as these categories
 ### You could offer below to improvise sales:
 
 - Introducing premium or seasonal coffee blends.
-- Offering tea tastings or curated tea sets.
+- Offering tea tastings.
 - Bundling coffee/tea with bakery items to increase average transaction value
 
 ## Challenges Encountered During Power BI Report Development
