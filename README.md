@@ -89,26 +89,6 @@ Conversion of data types (dates, numbers).
 Removal of duplicates or handling of missing values.
 Need for calculated columns (e.g., Revenue = Qty × Unit Price).
 
-3. Relationships and Data Modeling
-If integrating multiple tables, defining accurate relationships is essential.
-Incorrect relationships lead to aggregation and filtering errors.
-
-4. Designing Effective Visuals
-Choosing appropriate visuals for trends, comparisons, and summaries.
-Organizing data for user-friendly navigation and slicing (e.g., by category, date).
-
-5. DAX Complexity
-Creating calculated measures (YTD sales, category share, rankings).
-Learning curve in mastering DAX expressions.
-
-6. Performance Optimization
-Large datasets and excessive visuals may degrade performance.
-Requires careful optimization and visual filtering.
-
-7. Access Control & Sharing
-Configuring proper access rights and Row-Level Security (RLS).
-Ensuring sensitive information is only visible to authorized users.
-
 ## 🧮 DAX Measures Used
 
 These are the key DAX measures used in the Power BI dashboard:
