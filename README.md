@@ -58,13 +58,11 @@ This Power BI report helps Maven Roasters:
  ## 🔧 Data Preparation Steps
 - Load dataset into Power BI
 - Format date and time fields
-- Create a Calendar Table and establish relationships
 - Clean product and category data if needed
 - Create calculated columns and DAX measures
 ---
 ## ✨ Recommendations
 Shops can Focus on expanding their coffee and tea offerings, as these categories generate the most revenue:
-
 - Coffee leads with $269,952.45
 - Tea follows with $196,405.95
 
