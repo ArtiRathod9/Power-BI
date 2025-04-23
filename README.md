@@ -26,7 +26,7 @@ The dataset includes detailed sales transactions and comprises the following key
 
 This Power BI report helps Maven Roasters:
 
-- 🔄 **Analyze sales trends over time** (daily, monthly, yearly)
+- 🔄 **Analyze sales trends over time**
 - 🥇 **Identify top-performing products and categories**
 - 📍 **Compare sales performance across different store locations**
 
