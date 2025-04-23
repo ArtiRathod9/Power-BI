@@ -4,24 +4,6 @@
 **Maven Roasters** is a fictional coffee shop with three locations in New York City. This project uses transactional sales data to analyze business performance, track sales trends, evaluate top products, and compare performance across store locations using **Power BI**.
 
 ---
-
-## 📁 Dataset Description
-
-The dataset includes detailed sales transactions and comprises the following key columns:
-
-| Column Name        | Description                                      |
-|--------------------|--------------------------------------------------|
-| Transaction Date   | Date of the sale                                 |
-| Timestamp          | Exact time the transaction occurred              |
-| Store Location     | Name or code of the NYC location                 |
-| Product Name       | Name of the product sold                         |
-| Category           | Product category (e.g., Beverages, Pastries)     |
-| Quantity           | Number of units sold                             |
-| Unit Price         | Price per unit                                   |
-| Revenue            | Total sale amount (Quantity × Unit Price)        |
-
----
-
 ## 🎯 Project Objectives
 
 This Power BI report helps Maven Roasters:
@@ -52,7 +34,6 @@ This Power BI report helps Maven Roasters:
 ## 🔗 Live Power BI Dashboard
 👉 [Click here to view the interactive Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNjdhZDZiZTMtYzNiZC00ZTAyLWJjOGEtZTIyNDUzMGRmM2NlIiwidCI6IjZlZmQwZjIwLTU3YzgtNDQ0Ny1iNTNmLTAwZDQ5OTJjYTUwYiJ9)
 
-
 ![PowerBI Preview](Dshb.png)
 ---
  ## 🔧 Data Preparation Steps
@@ -82,6 +63,22 @@ Conversion of data types (dates, numbers).
 Removal of duplicates or handling of missing values.
 Need for calculated columns (e.g., Revenue = Qty × Unit Price).
 
+## 📁 Dataset Description
+
+The dataset includes detailed sales transactions and comprises the following key columns:
+
+| Column Name        | Description                                      |
+|--------------------|--------------------------------------------------|
+| Transaction Date   | Date of the sale                                 |
+| Timestamp          | Exact time the transaction occurred              |
+| Store Location     | Name or code of the NYC location                 |
+| Product Name       | Name of the product sold                         |
+| Category           | Product category (e.g., Beverages, Pastries)     |
+| Quantity           | Number of units sold                             |
+| Unit Price         | Price per unit                                   |
+| Revenue            | Total sale amount (Quantity × Unit Price)        |
+
+---
 ## 🧮 DAX Measures Used
 
 These are the key DAX measures used in the Power BI dashboard:
