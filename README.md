@@ -35,7 +35,7 @@ This Power BI report helps Maven Roasters:
 ## 📊 Power BI Report Features and DashBoard
 
 ### 1. **Sales Trend Analysis**
-- Line and area charts showing daily and monthly revenue
+- Line showing monthly revenue
 
 ### 2. **Product & Category Performance**
 - Bar charts for top products by quantity and revenue
