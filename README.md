@@ -36,8 +36,25 @@ This Power BI report helps Maven Roasters:
 
 ![PowerBI Preview](Dshb.png)
 ---
+## 📁 Dataset Description
+
+The dataset includes detailed sales transactions and comprises the following key columns:
+
+| Column Name        | Description                                      |
+|--------------------|--------------------------------------------------|
+| Transaction Date   | Date of the sale                                 |
+| Timestamp          | Exact time the transaction occurred              |
+| Store Location     | Name or code of the NYC location                 |
+| Product Name       | Name of the product sold                         |
+| Category           | Product category (e.g., Beverages, Pastries)     |
+| Quantity           | Number of units sold                             |
+| Unit Price         | Price per unit                                   |
+| Revenue            | Total sale amount (Quantity × Unit Price)        |
+
+---
+ 
  ## 🔧 Data Preparation Steps
-- Load dataset into Power BI
+ - Load dataset into Power BI
 - Format date and time fields
 - Clean product and category data if needed
 - Create calculated columns and DAX measures
@@ -63,22 +80,6 @@ Conversion of data types (dates, numbers).
 Removal of duplicates or handling of missing values.
 Need for calculated columns (e.g., Revenue = Qty × Unit Price).
 
-## 📁 Dataset Description
-
-The dataset includes detailed sales transactions and comprises the following key columns:
-
-| Column Name        | Description                                      |
-|--------------------|--------------------------------------------------|
-| Transaction Date   | Date of the sale                                 |
-| Timestamp          | Exact time the transaction occurred              |
-| Store Location     | Name or code of the NYC location                 |
-| Product Name       | Name of the product sold                         |
-| Category           | Product category (e.g., Beverages, Pastries)     |
-| Quantity           | Number of units sold                             |
-| Unit Price         | Price per unit                                   |
-| Revenue            | Total sale amount (Quantity × Unit Price)        |
-
----
 ## 🧮 DAX Measures Used
 
 These are the key DAX measures used in the Power BI dashboard:
